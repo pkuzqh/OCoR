@@ -1,0 +1,124 @@
+SQL SUM on DISTINCT values per time
+select	col0	from	tab0	where	col1	=	R_FREE	and	col2	in	(	select	tab1	.	col3	from	tab0	tab2	,	tab3	tab1	where	tab2	.	col4	=	R_FREE	and	tab1	.	col2	=	tab2	.	col2	)	;
+In SQL, how can I select the value in a row for every user, but only the most up-to-date row by comparing a time property?
+select	*	into	col0	from	openrowset	(	R_FREE	,	R_FREE	,	R_FREE	R_KLEENE	R_FREE	[sheet1$]	)	;
+DB2: Won't Allow "NULL" column?
+select	*	from	tab0	where	tab0	.	col0	like	R_WILD	R_FREE	R_WILD	;
+Grant all privileges to user on Oracle schema
+select	*	from	tab0	.	tab1	where	col0	=	CODE_INTEGER	;
+SQL Server query joining a table with the results of another query
+create	trigger	col0	before	insert	on	col1	for	each	row	begin	set	tab0	.	col2	=	current_date	(	)	end	;
+T-SQL - stored procedure that would handle an unknown number of parameters of unknown types
+create	col0	col1	(	col2	char	check	(	col2	in	(	CODE_INTEGER	,	CODE_INTEGER	)	)	;	insert	into	col1	values	(	CODE_INTEGER	)	;	insert	into	col1	values	(	CODE_INTEGER	)	;	`	;
+Create a stored procedure to find out employees who has overtime from timesheet table
+select	round	(	CODE_FLOAT	,	CODE_INTEGER	,	CODE_INTEGER	)	;
+How to improve performance of this query?
+create	trigger	col0	on	col1	for	insert	as	/*	get the range of level for this job type from the jobs table1.	*/	declare	col2	tinyint	,	col3	tinyint	,	col4	tinyint	,	col5	smallint	select	col2	=	col6	,	col3	=	col7	,	col4	=	tab0	.	col8	,	col5	=	tab0	.	col9	from	tab1	tab2	inner join	tab3	tab0	on	tab2	.	col10	=	tab0	.	col10	join	col11	col12	on	tab4	.	col9	=	tab0	.	col9	if	(	col5	=	CODE_INTEGER	)	and	(	col4	<>	CODE_INTEGER	)	begin	raiserror	(	R_FREE	,	CODE_INTEGER	,	CODE_INTEGER	)	rollback	col13	end	else	if	not	(	col4	between	col2	and	col3	)	begin	raiserror	(	R_FREE	R_WILD	R_FREE	R_WILD	R_FREE	R_WILD	R_FREE	,	CODE_INTEGER	,	CODE_INTEGER	,	col5	,	col2	,	col3	)	rollback	col13	end	;
+Joining two most recent events from two tables
+select	CODE_INTEGER	as	col0	,	CODE_INTEGER	as	col1	,	col2	as	col3	from	tab0	.	tab1	where	col4	=	R_FREE	for	col5	col6	;
+Self-referencing table Query
+col0	col1	col2	col3	<<	col4	CODE_INTEGER	col4	;
+Attach historical data to a non-historical table
+declare	@	col0	col1	=	col2	R_FREE	R_FREE	;	select	@	tab0	.	value	(	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	[1]	R_FREE	R_FREE	,	R_FREE	R_FREE	R_FREE	)	;
+Visualize SQL (Oracle) cascade delete tree
+select	col0	,	col1	,	col2	,	R_FREE	as	col3	from	tab0	where	col4	like	R_FREE	R_WILD	col5	col0	,	col1	,	col2	,	R_FREE	as	col3	from	tab0	where	col4	like	R_WILD	R_FREE	col5	col0	,	col1	,	col2	,	R_FREE	as	col3	from	tab0	where	col4	like	R_WILD	R_FREE	R_WILD	group	by	col3	,	col1	order	by	col3	,	col1	asc	limit	CODE_INTEGER	;
+Can SSMS indent xml when pasting into Editor?
+tab0	.	get_ddl	(	R_FREE	,	R_FREE	)	;
+Select from multiple rows as one row with defaults
+create	col0	versionhistory	(	version	int	primary	key	,	col1	col2	not null	,	col3	col2	)	;
+Postgres - Counting children in level (below) using ltree
+select	count	(	col0	)	as	col1	,	col2	from	tab0	group	by	col2	order	by	col1	desc	limit	CODE_INTEGER	;
+How to query data from one of two tables based on availablity
+select	table_name	from	tab0	where	col0	=	R_FREE	and	col1	in	(	select	constraint_name	from	tab0	where	col0	in	(	R_FREE	,	R_FREE	)	and	table_name	=	R_FREE	)	;
+Are update statements safe from race conditions?
+select	*	from	(	select	col0	:=	col0	+	CODE_INTEGER	as	col1	,	tab0	.	*	from	(	select	col0	:=	CODE_INTEGER	)	tab1	,	tab2	tab0	)	as	CODE_FLOAT	where	col2	=	col3	and	col1	%	CODE_INTEGER	=	CODE_INTEGER	;
+mysql get last N records with MAX(date)
+/*	*	*	*	*	*	object: storedprocedure [dbo].[custordersorders] script date: 08	/	25	/	2007 15:22:59	*	*	*	*	*	*/	if	exists	(	select	*	from	tab0	.	tab1	where	col0	=	object_id	(	col1	[dbo]	R_FREE	[custordersorders]	)	and	type	in	(	col1	R_FREE	,	col1	R_FREE	)	)	drop	procedure	tab2	.	col2	go	/*	*	*	*	*	*	object: storedprocedure [dbo].[custordersorders] script date: 08	/	25	/	2007 15:22:59	*	*	*	*	*	*/	set	col3	on	go	set	col4	on	go	if	not	exists	(	select	*	from	tab0	.	tab1	where	col0	=	object_id	(	col1	[dbo]	R_FREE	[custordersorders]	)	and	type	in	(	col1	R_FREE	,	col1	R_FREE	)	)	begin	exec	tab3	.	col5	col6	=	col1	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	end	go	;
+Take substring out of string
+insert	into	@resulttable	(	col0	,	col1	,	col2	)	select	col0	,	CODE_INTEGER	,	CODE_INTEGER	from	tab0	group	by	col0	update	col3	col1	=	(	select	count	(	*	)	as	col4	from	tab0	where	col5	=	CODE_INTEGER	tab1	.	col0	=	col0	)	update	col3	col2	=	(	select	count	(	*	)	as	col4	from	tab0	where	col6	=	CODE_INTEGER	tab1	.	col0	=	col0	)	;
+How to pass each value of the column from a table to a stored procedure and save the result in a table in SQL-Server
+select	databasepropertyex	(	R_FREE	,	R_FREE	)	col0	;
+SQL Server: WHERE clause with null comparison
+select	*	from	tab0	where	col0	like	R_WILD	R_FREE	R_WILD	or	col1	like	R_WILD	R_FREE	R_WILD	order	by	case	when	col0	like	R_WILD	R_FREE	R_WILD	then	CODE_INTEGER	else	CODE_INTEGER	end	,	date	;
+Querying by a value in XML in SQL Server 2005
+lock	all	col0	before	col1	col2	.	col3	col0	are	col4	with	read	local	to	col5	col6	col7	in	col3	case	of	col8	col0	.	for	col9	col0	col10	as	col11	and	col12	,	col13	col14	col15	option	,	col16	col17	col18	not	col19	to	lock	col3	col0	at	all	.	;
+How to get records from a table based on the quantity of a value in an other table
+alter	col0	col1	col2	column	col3	number	default	CODE_INTEGER	;
+SQL list only unique / distinct values
+select	chr	(	CODE_INTEGER	)	from	tab0	;
+Query for orphaned relations
+col0	col1	R_FREE	,	col2	R_FREE	;
+Oracle Scheduler – Creating a complex schedule with a single job
+create	col0	`swap_test`	(	col1	int	(	CODE_INTEGER	)	not null	col2	,	col3	varchar	(	CODE_INTEGER	)	default	null	,	col4	varchar	(	CODE_INTEGER	)	default	null	,	primary	key	(	col1	)	)	col5	=	col6	;	insert	into	col7	values	(	R_FREE	,	R_FREE	,	R_FREE	)	;	insert	into	col7	values	(	R_FREE	,	null	,	R_FREE	)	;	insert	into	col7	values	(	R_FREE	,	R_FREE	,	null	)	;
+Use a join or a subquery to select a single column
+select	table_name	from	tab0	.	tab1	where	column_name	=	R_FREE	;
+group by username and select sum of column
+col0	somemethod	(	)	{	col1	col2	=	tab0	.	col3	;	using	(	col4	col5	=	new	transactionscope	(	col2	)	)	{	col6	col7	=	new	mycomplusclass	(	)	;	tab1	.	sometransactionalmethod	(	)	;	}	}	;
+SQL Server: dynamic ORDER BY and if input param is NULL do not ORDER BY?
+select	tab0	.	col0	,	tab0	.	col1	,	tab1	.	col2	,	tab1	.	col3	,	tab1	.	col4	,	tab1	.	col5	,	tab2	.	col6	,	tab3	.	col7	from	tab4	tab0	left outer join	tab5	tab6	on	tab6	.	col8	=	tab0	.	col8	left outer join	col9	col10	on	tab3	.	col11	=	tab6	.	col11	;
+Hard aggregation query
+col0	haspermission	(	col1	user	,	col2	col2	)	{	return	(	tab0	.	col2	&	col2	)	!=	CODE_INTEGER	;	}	col3	setpermission	(	col1	user	,	col2	col2	)	{	tab0	.	col2	|	=	col2	;	}	col3	clearpermission	(	col1	user	,	col2	col2	)	{	tab0	.	col2	&	=	~	col2	;	}	;
+like clause doesn't work as it said in MySQL SQL
+select	*	from	tab0	join	(	select	max	(	col0	)	as	tab1	.	col1	,	col2	from	tab2	where	col3	=	col4	group	by	col1	,	col2	)	as	tab3	on	tab0	.	col0	=	tab3	.	col0	;
+What approach is best for mapping a legacy application tables named after years in Django?
+select	*	from	tab0	where	date_sub	(	curdate	(	)	,	interval	CODE_INTEGER	col0	)	<=	col1	;
+SQL view with date calculations
+select	to_char	(	col0	,	R_FREE	R_FREE	R_FREE	)	from	tab0	;
+SQL Select not grouping properly
+create or replace	function	example_subtree	(	integer	)	returns	setof	col0	as	R_FREE	R_KLEENE	R_FREE	R_END	R_FREE	R_END	R_FREE	R_KLEENE	R_FREE	R_FREE	R_FREE	language	R_FREE	;	select	sum	(	col1	)	as	col2	from	example_subtree	(	CODE_INTEGER	)	;
+mysql get rows between two dates based on two columns
+col0	:	\	>	col1	col2	col3	col4	col5	for	CODE_INTEGER	-	bit	col6	:	version	CODE_FLOAT	CODE_FLOAT	CODE_FLOAT	CODE_FLOAT	-	col7	on	CODE_INTEGER	-	col8	CODE_INTEGER	CODE_INTEGER	CODE_INTEGER	col9	col10	copyright	(	col11	)	CODE_INTEGER	col12	tab0	.	all	col13	col14	.	col15	parameter	col16	:	col11	:	\	col17	\	col18	\	admin	\	tab1	.	col19	col11	:	\	col17	\	col18	\	admin	\	tab2	.	col19	col3	CODE_INTEGER	:	col20	to	col21	col22	col0	:	\	>	col0	:	\	>	col1	col23	col3	col4	col5	for	CODE_INTEGER	-	bit	col6	:	version	CODE_FLOAT	CODE_FLOAT	CODE_FLOAT	CODE_FLOAT	-	col7	on	CODE_INTEGER	-	col8	CODE_INTEGER	CODE_INTEGER	CODE_INTEGER	col24	col25	copyright	(	col11	)	CODE_INTEGER	col12	tab0	.	all	col13	col14	.	col15	parameter	col16	:	col11	:	\	col17	\	col18	\	admin	\	tab1	.	col19	col11	:	\	col17	\	col18	\	admin	\	tab2	.	col19	col15	col26	col27	to	col21	col28	alias	col29	to	contact	(	col30	=	(	col31	=	(	col32	=	(	col33	=	*	*	)	(	col34	=	col35	)	(	host	=	*	*	*	*	)	(	col36	=	CODE_INTEGER	)	)	)	(	col37	=	(	col38	=	col39	CODE_INTEGER	)	)	)	ok	(	CODE_INTEGER	col40	)	col0	:	\	>	;
+Referencing multiple primary key(s) in another table
+select	distinct	collation_name	from	tab0	.	tab1	order	by	CODE_INTEGER	;
+How query can i use to get a best seller?
+col0	somemethod	(	)	{	col1	col2	=	tab0	.	col3	;	using	(	col4	col5	=	new	transactionscope	(	col2	)	)	{	col6	col7	=	new	mycomplusclass	(	)	;	tab1	.	sometransactionalmethod	(	)	;	}	}	;
+Count order of overlapping date ranges in SQL
+insert	into	pager	(	col0	,	col1	,	col2	,	col3	)	select	CODE_INTEGER	,	CODE_INTEGER	,	R_FREE	,	CODE_INTEGER	from	tab0	union	all	select	CODE_INTEGER	,	CODE_INTEGER	,	R_FREE	,	CODE_INTEGER	from	tab0	;
+How can I use the 'NVL' function on a result table?
+select	col0	,	max	(	col1	)	from	tab0	group	by	col0	order	by	max	(	col1	)	desc	limit	CODE_INTEGER	;
+Use alias name in same query for SQL Server
+select	*	from	CODE_INTEGER	tab0	tab1	,	CODE_INTEGER	tab2	tab3	,	CODE_INTEGER	tab4	tab5	where	tab1	.	col0	=	tab3	.	col1	and	tab1	.	col2	=	tab5	.	col0	and	col3	between	CODE_INTEGER	and	CODE_INTEGER	and	source	not	in	(	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	)	and	type	not	in	(	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	,	R_FREE	)	and	(	(	type	!=	R_FREE	)	or	(	false	)	)	and	(	(	type	!=	R_FREE	)	or	(	false	)	)	order	by	type	asc	,	col3	asc	,	col4	asc	/*	some thoughts: ============== 0 - formatting really matters, in sql even more than most languages. 1 - consider selecting only the columns you need, not "	*	" 2 - use of table1 aliases makes it short & clear ( "mi", "mil" in my example ) 3 - joins in the where clause will un-clutter your from clause 4 - use not in for long lists 5 - logically, the last two lines can be added to the "type not in" section. i'm not sure why you have the "or false", but i'll assume some good reason and leave them here.	*/	;
+Count in Query 400 not passing correctly
+select	*	from	tab0	.	tab1	.	tab2	.	tab3	;
+SQL: Select the highest conditional sum on a table
+col0	somemethod	(	)	{	col1	col2	=	tab0	.	col3	;	using	(	col4	col5	=	new	transactionscope	(	col2	)	)	{	col6	col7	=	new	mycomplusclass	(	)	;	tab1	.	sometransactionalmethod	(	)	;	}	}	;
+How to get other columns from a row when using an aggregate function?
+select	*	into	col0	from	openrowset	(	R_FREE	,	R_FREE	,	R_FREE	R_KLEENE	R_FREE	[sheet1$]	)	;
+Sql Query for finding a certain frequency distribution
+declare	col0	nvarchar	(	CODE_INTEGER	)	set	col0	=	R_FREE	+	char	(	CODE_INTEGER	)	+	R_FREE	select	col0	;
+Group By from two tables
+select	substring	(	column	,	patindex	(	R_WILD	[0-9]	R_WILD	,	column	)	,	CODE_INTEGER	)	from	tab0	;
+SQL DB2 - Select query based on a column value unique to another column
+declare	col0	varchar	(	CODE_INTEGER	)	declare	col1	cursor	for	select	R_FREE	+	table_name	+		from	tab0	.	tab1	where	table_name	like	R_FREE	R_WILD	open	col1	col2	CODE_INTEGER	=	CODE_INTEGER	begin	fetch	col1	into	col0	if	@@	col3	!=	CODE_INTEGER	col4	exec	(	col0	)	end	close	col1	;	deallocate	col1	;
+Help with SQL and table optimization
+case	when	datepart	(	col0	,	col1	)	in	(	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	)	then	dateadd	(	col2	,	CODE_INTEGER	,	col1	)	when	datepart	(	col0	,	col1	)	=	CODE_INTEGER	then	dateadd	(	col2	,	CODE_INTEGER	,	col1	)	else	col1	end	as	col3	;
+SET @tmpYr - declared as INT
+select	tab0	.	col0	as	R_FREE	R_FREE	R_FREE	from	tab0	;
+Prolog Database: Why is program only running once?
+create	col0	col1	on	[table1 name]	(	col2	)	;
+SQL get rows matching ALL conditions
+select	*	from	tab0	.	.	tab1	;
+Get repeated rows MySQL
+select	tab0	.	col0	from	tab1	tab0	where	(	month	(	tab0	.	col1	)	=	month	(	col2	)	and	day1	(	tab0	.	col1	)	=	day1	(	col2	)	)	or	(	month	(	tab0	.	col1	)	=	CODE_INTEGER	and	day1	(	tab0	.	col1	)	=	CODE_INTEGER	and	month	(	col2	)	=	CODE_INTEGER	and	day1	(	col2	)	=	CODE_INTEGER	and	(	year1	(	col2	)	%	CODE_INTEGER	=	CODE_INTEGER	)	and	(	(	year1	(	col2	)	%	CODE_INTEGER	!=	CODE_INTEGER	)	or	(	year1	(	col2	)	%	CODE_INTEGER	=	CODE_INTEGER	)	)	)	;
+PostgreSQL - Help Required in Creating View
+insert	into	table1	(	.	.	.	tab0	.	.	.	)	exec	tab1	.	.	.	tab2	.	.	.	;
+Ascending and Decending ORDER BY clauses in a single query
+select	tab0	.	col0	,	tab1	.	col1	,	group_concat	(	tab2	.	col1	)	from	(	tab1	left join	tab0	on	tab1	.	col0	=	tab0	.	col2	)	left join	col3	on	tab0	.	col4	=	tab2	.	col0	group	by	tab1	.	col0	;
+join two mysql queries based on parameters
+tab0	.	col0	=	(	col1	)	;
+Checking bidirectionality in SQL directed graph
+select	*	from	tab0	where	col0	in	(	select	distinct	col1	CODE_INTEGER	col0	from	tab0	order	by	col0	desc	)	;
+How do i get max salary row , group by country
+select	*	into	col0	from	openrowset	(	R_FREE	,	R_FREE	,	R_FREE	R_KLEENE	R_FREE	[sheet1$]	)	;
+sqlite data from one db to another 
+begin	myproc	(	my_array_type	(	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	,	CODE_INTEGER	)	)	;	end	;
+Draw a dynamic table in SQL
+insert	into	`table1`	(	col0	,	col1	)	values	(	CODE_INTEGER	,	CODE_INTEGER	)	,	(	CODE_INTEGER	,	CODE_INTEGER	)	,	(	CODE_INTEGER	,	CODE_INTEGER	)	;
+Sql Server (breaking sting and doing operations in that order)
+select	tab0	.	col0	from	tab1	tab0	where	tab0	.	col0	not	in	(	select	col0	from	tab2	where	col0	is	not null	)	;
+How do I get rows which have multiple values on the other column in sql server?
+select	col0	,	col1	,	abs	(	cast	(	cast	(	newid	(	)	as	col2	)	as	int	)	)	%	CODE_INTEGER	as	col3	from	tab0	;
+How to order queries of one table based on the sum of a column in a related table
+select	col0	from	tab0	where	col0	collate	col1	=	R_FREE	select	col0	from	tab0	where	col0	collate	col1	=	R_FREE	select	col0	from	tab0	where	col0	collate	col1	=	R_FREE	;
+How to select data based on special condition?
+create	view	col0	as	,	col1	,	,	col2	select	col3	,	tab0	.	value	(	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	[1]	,	R_FREE	R_FREE	R_FREE	)	as	col1	,	tab0	.	value	(	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	[1]	,	R_FREE	R_FREE	R_FREE	)	as	col4	,	tab0	.	value	(	R_FREE	R_FREE	R_FREE	R_FREE	R_FREE	[1]	,	R_FREE	)	as	col2	,	from	tab1	;
